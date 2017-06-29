@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>分页面</title>
+    <link rel="stylesheet" href="css/pages.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/fixed_header.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+    <header></header>
+    <div class="small">
+        <ul>
+            <li>
+                <a href="javascript:;">
+                    <span class="iconfont">&#xe62f;</span>
+                    <span>留言</span>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <span class="iconfont">&#xe603;</span>
+                    <span>手机课堂</span>
+                </a>
+                <div>
+                    <a href="javascript:;">
+                        <img src="images/sideBar01.png">
+                        <p>下载APP</p>
+                    </a>
+                    <a href="javascript:;">
+                        <img src="images/sideBar02.png">
+                        <p>关注微信</p>
+                    </a>
+                </div>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="iconfont">&#xe619;</span>
+                    <span>返回顶部</span>
+                </a>
+
+            </li>
+        </ul>
+    </div>
+    <div class="pages_container">
+        <div class="pages_main">
+            <p><a href="javascript:;">首页</a>&gt;<span>全部课程</span></p>
+            <ul>
+                <li><a href="javascript:;">全部课程</a></li>
+                <li><a href="javascript:;">IT/互联网</a></li>
+                <li><a href="javascript:;">设计创作</a></li>
+                <li><a href="javascript:;">职场/金融</a></li>
+                <li><a href="javascript:;">兴趣生活</a></li>
+                <li><a href="javascript:;">语言/留学</a></li>
+                <li><a href="javascript:;">中小学</a></li>
+                <li><a href="javascript:;">考试认证</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="nav_banner">
+        <div class="pages_banner">
+            <div class="pages_slider">
+                <div class="slider_lf">
+                    <ul>
+                        <li>
+                            <a href="javascript:;">
+                                <img src="images/pages_01.jpg" alt="">
+                            </a>
+                            <p>让效率翻倍的四个小工具</p>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <img src="images/pages_02.jpg" alt="">
+                            </a>
+                            <p>中欧管理与领导力</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="slider_mid">
+                    <div id="slider">
+                        <div class="slider">
+                            <ul class="img"></ul>
+                            <ul class="indexs"></ul>
+                        </div>
+                    </div>
+                    <!--<a class="slider_pic" href="#">-->
+                        <!--<div id="imgs"></div>-->
+                    <!--</a>-->
+                    <!--<a class="btn_lf"></a>-->
+                    <!--<a class="btn_rt"></a>-->
+                    <!--<div class="slider_num">-->
+                        <!--<ul id="slider_num"></ul>-->
+                    <!--</div>-->
+                </div>
+                <div class="slider_rt">
+                    <p>
+                        <a href="javascript:;" class="active">付费排行</a>
+                        <a href="javascript:;">免费排行</a>
+                    </p>
+                    <ul class="price_down"></ul>
+                </div>
+            </div>
+            <div class="pages_class">
+                <div>
+                    <ul class="nav_lf">
+                        <li><a href="javascript:;">全部</a></li>
+                        <li><a href="javascript:;">随到随学</a></li>
+                        <li><a href="javascript:;">正在开课</a></li>
+                        <li><a href="javascript:;">即将开始</a></li>
+                    </ul>
+                    <ul class="nav_rt">
+                        <li><a href="javascript:;">综合</a></li>
+                        <li>-</li>
+                        <li><a href="javascript:;">好评</a></li>
+                        <li>-</li>
+                        <li><a href="javascript:;">最新</a></li>
+                        <li><a href="javascript:;">价格</a></li>
+                    </ul>
+                </div>
+                <ul class="banner_class"></ul>
+            </div>
+            <div class="pager">
+                <a class="prev" href="javascript:;">上一页</a>
+                <ul class="pages_num"></ul>
+                <a class="next" href="javascript:;">下一页</a>
+            </div>
+        </div>
+    </div>
+    <footer></footer>
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/pages.js"></script>
+    <script>
+        $('#slider').slider();
+    </script>
+    <script src="js/select_price.js"></script>
+</body>
+</html>
